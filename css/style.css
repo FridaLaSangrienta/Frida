@@ -37,8 +37,9 @@ body {
 /* Section suivante après la page de garde */
 .content {
     padding: 40px;
-    background-color: #ffffff; /* Fond blanc */
-    color: #000000; /* Texte noir */
+	font-family: 'The Seasons', serif; /* Police The Seasons */
+    background-color: #E4D6B3; /* Fond blanc */
+    color: #2F2313; /* Texte noir */
 }
 
 .content-wrapper {
