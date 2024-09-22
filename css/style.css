@@ -33,6 +33,7 @@ body {
 /* Section suivante après la page de garde */
 .content {
     padding: 40px;
+	font-family: 'The Seasons', serif; /* Police The Seasons */
     background-color: #ffffff; /* Fond blanc pour contraster avec le bleu */
     color: #000000; /* Texte noir pour cette section */
 }
