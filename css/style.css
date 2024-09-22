@@ -73,7 +73,7 @@ figcaption {
 .paragraph {
     font-size: 1.5rem;
     line-height: 1.6;
-    max-width: 600px;
+    max-width: 800px;
 	    margin-left: 20px; /* Espace entre le texte et l'image */
     margin-right: 20px; /* Espace entre le texte et le bord */
 }
