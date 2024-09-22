@@ -57,13 +57,16 @@ body {
     height: auto;
     border: 1px solid #ccc;
     display: block;
+	border: 1.5px solid #2F2313; /* Couleur et épaisseur de la bordure */
+    border-radius: 5px; /* Arrondir légèrement les coins, optionnel */
 }
 
 figcaption {
     font-size: 0.9rem;
     text-align: center;
     margin-top: 5px;
-    color: #666;
+    color: #2F2313;
+	
 }
 
 /* Style pour le paragraphe à droite de l'image */
