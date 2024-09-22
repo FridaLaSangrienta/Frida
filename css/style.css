@@ -1,27 +1,22 @@
-/* Applique la police Montserrat depuis Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* Utilisation de la police The Seasons pour le titre */
+@import url('https://fonts.googleapis.com/css2?family=The+Seasons&display=swap');
 
+.main-title {
+    font-family: 'The Seasons', serif; /* Police The Seasons */
+    font-size: 4rem; /* Taille très grande pour être en gros caractères */
+    text-align: center;
+    color: #f8f8f8; /* Blanc cassé */
+    margin-top: 20vh; /* Centrer verticalement le texte */
+}
+
+/* Centrer le corps de la page */
 body {
-    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 20px;
     background-color: #002fa7; /* Bleu outremer */
+    font-family: 'Montserrat', sans-serif;
     color: #f8f8f8; /* Blanc cassé */
-}
-
-header {
-    background-color: #002fa7; /* Bleu outremer */
-    color: #f8f8f8; /* Blanc cassé */
-    padding: 20px 0;
-    text-align: center;
-}
-
-main {
-    color: #f8f8f8; /* Blanc cassé */
-}
-
-footer {
-    color: #f8f8f8; /* Blanc cassé */
-    text-align: center;
-    margin-top: 20px;
 }
