@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 130vh;
+    height: 100vh;
     margin: 0;
     background-color: #002fa7; /* Bleu outremer */
     font-family: 'Montserrat', sans-serif;
@@ -21,6 +21,6 @@ body {
 }
 
 .subtitle {
-    font-size: 6rem; /* Taille légèrement plus petite pour la Sangrienta */
+    font-size: 10rem; /* Taille légèrement plus petite pour la Sangrienta */
     display: block;
 }
