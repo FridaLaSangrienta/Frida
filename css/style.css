@@ -1,15 +1,6 @@
-/* Utilisation de la police The Seasons pour le titre */
+/* Import de la police The Seasons */
 @import url('https://fonts.googleapis.com/css2?family=The+Seasons&display=swap');
 
-.main-title {
-    font-family: 'The Seasons', serif; /* Police The Seasons */
-    font-size: 4rem; /* Taille très grande pour être en gros caractères */
-    text-align: center;
-    color: #f8f8f8; /* Blanc cassé */
-    margin-top: 20vh; /* Centrer verticalement le texte */
-}
-
-/* Centrer le corps de la page */
 body {
     display: flex;
     justify-content: center;
@@ -19,4 +10,17 @@ body {
     background-color: #002fa7; /* Bleu outremer */
     font-family: 'Montserrat', sans-serif;
     color: #f8f8f8; /* Blanc cassé */
+}
+
+.main-title {
+    font-family: 'The Seasons', serif; /* Police The Seasons */
+    font-size: 8rem; /* Taille très grande pour Frida */
+    text-align: center;
+    margin: 0;
+    line-height: 1.2; /* Espace entre les lignes */
+}
+
+.subtitle {
+    font-size: 6rem; /* Taille légèrement plus petite pour la Sangrienta */
+    display: block;
 }
