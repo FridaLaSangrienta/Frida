@@ -82,3 +82,18 @@ figcaption {
     text-align: right; /* Aligne le texte à droite */
     margin-top: 10px; /* Ajoute un espace au-dessus si nécessaire */
 }
+.round-button {
+    position: absolute; /* Pour positionner le bouton où tu veux */
+    top: 20px; /* Ajuste la distance du haut */
+    left: 20px; /* Ajuste la distance de la gauche */
+    width: 50px; /* Largeur du bouton (ajuste selon l'image) */
+    height: 50px; /* Hauteur du bouton (ajuste selon l'image) */
+    border-radius: 50%; /* Pour un bouton rond */
+    overflow: hidden; /* Pour masquer les débordements */
+}
+
+.button-image {
+    width: 100%; /* Prend toute la largeur du bouton */
+    height: auto; /* Garde les proportions de l'image */
+    display: block; /* Évite l'espace en dessous de l'image */
+}
