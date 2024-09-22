@@ -90,7 +90,9 @@ figcaption {
     height: 50px; /* Hauteur du bouton (ajuste selon l'image) */
     border-radius: 50%; /* Pour un bouton rond */
     overflow: hidden; /* Pour masquer les débordements */
+    border: 3px solid #2F2313; /* Bordure marron */
 }
+
 
 .button-image {
     width: 100%; /* Prend toute la largeur du bouton */
