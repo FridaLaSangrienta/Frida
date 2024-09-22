@@ -77,3 +77,8 @@ figcaption {
 	    margin-left: 20px; /* Espace entre le texte et l'image */
     margin-right: 20px; /* Espace entre le texte et le bord */
 }
+.signature {
+    display: block; /* Pour que le texte occupe une ligne entière */
+    text-align: right; /* Aligne le texte à droite */
+    margin-top: 10px; /* Ajoute un espace au-dessus si nécessaire */
+}
