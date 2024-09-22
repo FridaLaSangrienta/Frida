@@ -10,12 +10,16 @@ body {
 
 /* Style de la page de garde avec "Frida la Sangrienta" */
 .cover {
-    height: 100vh; /* La section occupe toute la hauteur de la fenêtre */
+    background-image: url('../images/Fond-frida.jpg'); /* Chemin vers l'image */
+    background-size: cover; /* L'image couvre toute la zone */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Pas de répétition de l'image */
+    height: 100vh; /* Prend toute la hauteur de la page */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #002fa7; /* Bleu outremer */
 }
+
 
 .main-title {
     font-family: 'The Seasons', serif; /* Police The Seasons */
