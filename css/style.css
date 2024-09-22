@@ -33,15 +33,40 @@ body {
 /* Section suivante après la page de garde */
 .content {
     padding: 40px;
-	font-family: 'The Seasons', serif; /* Police The Seasons */
-    background-color: #ffffff; /* Fond blanc pour contraster avec le bleu */
-    color: #000000; /* Texte noir pour cette section */
+    background-color: #ffffff; /* Fond blanc */
+    color: #000000; /* Texte noir */
 }
 
-.paragraph {
-    font-size: 1rem;
-    text-align: left;
+.content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1200px;
     margin: 0 auto;
-    max-width: 800px; /* Limite la largeur du paragraphe */
+}
+
+/* Style pour l'image et sa légende */
+.image-figure {
+    margin: 0;
+    padding-right: 20px;
+}
+
+.image-left {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 5px;
+    color: #666;
+}
+
+/* Style pour le paragraphe à droite de l'image */
+.paragraph {
+    font-size: 1.5rem;
     line-height: 1.6;
+    max-width: 800px;
 }
