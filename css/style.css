@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=The+Seasons&display=swap');
 
 body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #002fa7; /* Bleu outremer pour tout le fond */
-    color: #f8f8f8; /* Blanc cassé pour le texte */
+    
 }
 
 /* Style de la page de garde avec "Frida la Sangrienta" */
@@ -73,5 +70,7 @@ figcaption {
 .paragraph {
     font-size: 1.5rem;
     line-height: 1.6;
-    max-width: 800px;
+    max-width: 500px;
+	    margin-left: 20px; /* Espace entre le texte et l'image */
+    margin-right: 20px; /* Espace entre le texte et le bord */
 }
