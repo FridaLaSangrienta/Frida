@@ -38,8 +38,8 @@ body {
 }
 
 .paragraph {
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 1rem;
+    text-align: left;
     margin: 0 auto;
     max-width: 800px; /* Limite la largeur du paragraphe */
     line-height: 1.6;
